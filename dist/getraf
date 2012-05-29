@@ -1,0 +1,6 @@
+#!/bin/sh
+login="x-"
+password=""
+pathToJar="/home/user/soft/checkBallance.jar"
+java -jar "$pathToJar" "$login" "$password"
+exit 0
